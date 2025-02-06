@@ -1,6 +1,7 @@
 package com.example.alartdialog;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,5 +17,9 @@ public class CreditsActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_credits);
 
+    }
+
+    public void goback(View view) {
+        finish();
     }
 }
